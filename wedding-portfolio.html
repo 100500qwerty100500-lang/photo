@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебное портфолио - Яков Лазаревский</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Anonymous+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header--white">
+        <div class="container header__container">
+            <div class="header__logo">
+                <span class="header__logo-title">Фотограф</span>
+                <span class="header__logo-name">Яков Лазаревский</span>
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <button class="burger" aria-label="Меню" aria-expanded="false">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Wedding Portfolio Page -->
+    <section class="wedding-portfolio-page">
+        <div class="container">
+            <h1 class="wedding-portfolio-page__title">Свадебные фотографии</h1>
+            
+            <div class="wedding-portfolio-page__grid">
+                <!-- 1. Вертикальное фото - пара идет с фатой -->
+                <div class="wedding-portfolio-page__item wedding-portfolio-page__item--tall">
+                    <img src="img/image 19.svg" alt="Свадебное фото" class="wedding-portfolio-page__img">
+                </div>
+                
+                <!-- 2. Горизонтальное фото - пара под драпировкой -->
+                <div class="wedding-portfolio-page__item wedding-portfolio-page__item--wide">
+                    <img src="img/image 20.svg" alt="Свадебное фото" class="wedding-portfolio-page__img">
+                </div>
+                
+                <!-- 3. Вертикальное фото - пара в поле с солнцем -->
+                <div class="wedding-portfolio-page__item wedding-portfolio-page__item--tall">
+                    <img src="img/image 21.svg" alt="Свадебное фото" class="wedding-portfolio-page__img">
+                </div>
+                
+                <!-- 4. Широкое фото - танцующая пара -->
+                <div class="wedding-portfolio-page__item wedding-portfolio-page__item--full-width">
+                    <img src="img/image 22.svg" alt="Свадебное фото" class="wedding-portfolio-page__img">
+                </div>
+                
+                <!-- 5. Вертикальное фото - пара с цветочным венком -->
+                <div class="wedding-portfolio-page__item wedding-portfolio-page__item--tall">
+                    <img src="img/image 24.svg" alt="Свадебное фото" class="wedding-portfolio-page__img">
+                </div>
+                
+                <!-- 6. Квадратное/вертикальное фото - объятия крупным планом -->
+                <div class="wedding-portfolio-page__item wedding-portfolio-page__item--square">
+                    <img src="img/image 25.svg" alt="Свадебное фото" class="wedding-portfolio-page__img">
+                </div>
+            </div>
+            
+            <!-- Другие категории -->
+            <div class="wedding-portfolio-page__categories">
+                <a href="portrait-portfolio.html" class="wedding-portfolio-page__category">
+                    <div class="wedding-portfolio-page__category-image">
+                        <img src="img/image 3.svg" alt="Портретная съемка" class="wedding-portfolio-page__category-img">
+                    </div>
+                    <p class="wedding-portfolio-page__category-title">Портретная<br>съёмка</p>
+                </a>
+                
+                <a href="studio-portfolio.html" class="wedding-portfolio-page__category">
+                    <div class="wedding-portfolio-page__category-image">
+                        <img src="img/image 4.svg" alt="Студийная съемка" class="wedding-portfolio-page__category-img">
+                    </div>
+                    <p class="wedding-portfolio-page__category-title">Студийная<br>съёмка</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">
+                © 2025 Яков Лазаревский — фотограф<br>
+                Создаю искренние образы для тех, кто ценит моменты.<br>
+                Свадьбы • Портреты • Студийная съёмка
+            </p>
+            <p class="footer__policy">Политика конфиденциальности</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
